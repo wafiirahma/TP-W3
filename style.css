@@ -1,0 +1,33 @@
+body{
+    font-family: Manrope, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-color {
+    background-color: #f7f7f7 !important;
+}
+
+.banner{
+    height: 91vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(banner.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
+
+.icon-recipe{
+    width: 90px;
+    height: 90px;
+    border: solid #000000 2px;
+    border-radius: 50%;
+}
+
+.content-subscribe{
+    background-color: rgba(0, 0, 0, 0.4);
+}
